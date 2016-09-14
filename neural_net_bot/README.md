@@ -47,13 +47,13 @@ So, let's begin:
 
 #### Step #1: Install Docker
 Go to https://www.docker.com/ and install Docker. Open it up.
-<img src="docker_site.png">
+<img src="images/docker_site.png">
 
 #### Step #2: Run Docker
 Open up terminal and type:
 
 docker run --rm -ti crisbal/torch-rnn:base bash
-<img src="docker_start.png">
+<img src="images/docker_start.png">
 
 #### Step #3: Select your training data
 Inside of the docker instance there's some sample Shakespeare data, but you're here because you want to train an RNN on something unique. Recipes? Donald Trump tweets? A math textbook? The Twilight series? 5MB of Miss Manners? Sci-Fi screenplays? Yelp reviews?
@@ -67,7 +67,7 @@ docker ps
 
 This will give you information about your docker instances that you will need. On the far right is a "NAME" column. I've opened up a few by now, and they all have superb names.
 
-<img src="docker_name.png">
+<img src="images/docker_name.png">
 
 Now, in terminal you'll need to navigate to the directory that contains your data file. If you don't already know how to do that, there are plenty of resources on the internet. The first google result I got seems like a good reference:
 
@@ -81,7 +81,7 @@ where NAMEOFYOURDOCKER is what we found earlier with "docker ps" and FILENAME is
 
 docker cp allrecipes.txt goofy_swirles:/root/torch-rnn/data/allrecipes.txt
 
-<img src="move_data.png">
+<img src="images/move_data.png">
 
 #### Step #5: Preprocessing
 
@@ -132,7 +132,7 @@ Explanation:
 
 Now you're going to see this for a while.
 
-<img src="training.png">
+<img src="images/training.png">
 
 
 The program is going to run 50 epochs, stopping occassionally to compute the cross-validation loss. If you're interested, take a look at the original repository: these numbers can tell you how your model is performing and whether you need to increase/decrease model size on your next run.
@@ -147,7 +147,7 @@ th sample.lua -checkpoint cv/checkpoint_10000.t7 -length 2000 -gpu -1
 
 Where "-lenth 2000" is the size of the sample you're taking. This generates 2000 characters and only takes a few seconds. Feel free to increase this.
 
-<img src="sampling.png">
+<img src="images/sampling.png">
 
 That's it. You trained a recurrent neural network and generated samples from it. Congratulations! 
 
