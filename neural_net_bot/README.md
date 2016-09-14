@@ -1,4 +1,9 @@
-# Recurrent Neural Network
+- recipe_scraper.ipynb uses BeautifulSoup to pull recipes from cookbooks.com
+- images folder contains images for the tutorial
+- data folder contains training datasets
+
+
+# Recurrent Neural Network Tutorial
 
 ## Introduction
 The purpose of this quick tutorial is to get you a very big, very useful neural network up and running in just a few hours. The goal is that anyone with a computer, some free time, and little-to-no knowledge of what neural networks are or how they work can easily begin playing with this technology as soon as possible. Technical explanations of what RNNs are abound on the internet, so this tutorial will skip explanation and focus solely on building.
