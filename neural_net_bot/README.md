@@ -1,6 +1,7 @@
 - recipe_scraper.ipynb uses BeautifulSoup to pull recipes from cookbooks.com
 - images folder contains images for the tutorial
 - data folder contains training datasets
+- Cooking with HAL9000 contains recipes created using the RNN described below
 
 
 # Recurrent Neural Network Tutorial
