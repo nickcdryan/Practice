@@ -151,7 +151,7 @@ That's it. You trained a recurrent neural network and generated samples from it.
 
 Depending on your samples, you might want to run the network again and adjust the training parameters. Again, the best resource is Karpathy's repository, but it's safe to say that if your output is full of errors, spelling mistakes, irregularities, then you will want to increase the size of your model. 
 
-### Resrouces
+### Resources
 
 If you've made it this far, at this point you might be interested in learning a little more about how this technology works. I would recommend you take a look at a few of the following resources. I would provide my own technical discussion, but at there are already too many good ones out there today. Check out, in ascending order of technical depth:
 
