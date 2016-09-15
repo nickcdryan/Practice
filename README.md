@@ -24,7 +24,7 @@ Prediction and analysis of individual yearly income using US census data achievi
 While not the most demanding classification task, this project includes careful analysis of a messy dataset, in-depth discussion of tools, and does a good job of demonstrating my thought process through a careful analysis of messy data and discussion of tools. Discussion of handling null values, data gaps, preprocessing, encoding methods for categorical data, interpretation of regression coefficients, interpreting scores, confusion matrices, diagnostics for model improvement.
 
 ### [Technical Writing](https://github.com/nickcdryan/Projects/tree/master/technical_writing)
-Contains a couple samples of more technical or mathematically involved topics. The regularization write-up aims to summarize the purpose of regularization, the difference between types of regularization used, the mathematical consequences of using one type of regularization over another, and some loose guidelines about which to use. 
+Contains a sample of technical/mathematically involved writing. The regularization write-up aims to summarize the purpose of regularization, the difference between types of regularization used, the mathematical consequences of using one type of regularization over another, and some loose guidelines about which to use. 
 
 ### [Monte Carlo Project Plan Simulator](https://github.com/nickcdryan/MonteCarlo_Estimate)
 Takes in a number of tasks to be completed for a given project, the hours estimated for each task, and the confidence that the task will be completed with those hours. Uses Monte Carlo simulation to create a cumulative distribution function showing the likelihood for the entire project to be completed within a given time frame. 
