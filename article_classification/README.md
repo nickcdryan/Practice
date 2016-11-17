@@ -20,3 +20,4 @@ Produces:
 - Apply tokenization, and stopword removal to article headlines
 - Create dictionary of cluster topic terms, match article headline tokens to cluster topic terms, create ratios of matched cluster topic terms against total number of tokens
 - Group by date, prepare data for visualization, plot with matplotlib
+- Tune hyperparameters (max_df, cluster count, terms per cluster, etc.) of k-means to reduce noise and enhance information content of visualization (Automation TK)
