@@ -2,7 +2,7 @@
 A selection of archived and WIP data science projects
 
 ### [News Topic Clustering](https://github.com/nickcdryan/Projects/tree/master/article_classification)
-End-to-end project for scraping news from google search, parsing, cleaning, clustering topic for related, subsidiary news topics, and visualization.
+End-to-end project for scraping news from google search, parsing, cleaning, clustering topic for related, subsidiary news topics, and streamgraph visualization.
 
 ### [Recurrent Neural Network Tutorial](https://github.com/nickcdryan/Projects/tree/master/neural_net_bot)
 A how-to for anyone interested in training and sampling from their own state-of-the-art recurrent neural network. Intentionally designed so that anyone, with almost no familiarity of neural networks (or programming, for that matter), can get one up and running in an afternoon. Hopefully, this will allow people with very limited domain knowledge, but who are nevertheless interested in the latest advances in AI to gain access to the latest cutting-edge tool in the field.
