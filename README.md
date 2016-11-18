@@ -11,6 +11,9 @@ Also includes output from neural nets I trained and sampled from:
 - Cooking with HAL9000: AI generated recipes created from a net trained on 3MB of recipe text from cookbooks.com. Salmon Cookies, anyone?
 - Donald Shakespeare: AI generated tweets and drama snippets created from a 2MB combination of the collected works of Shakespeare and Donald Trump tweets and speeches. Juliet said it best: "Here well get for me thy woo ask our see that speedy? #MakeAmericaGreatAgain"
 
+### [Decision Tree Graph](https://github.com/nickcdryan/Projects/tree/master/decision_tree_resumes)
+Quick project to create decision tree visualization graphs.
+
 ### [Wine Quality](https://github.com/nickcdryan/Projects/tree/master/wine_quality)
 What started as an analysis of wine datasets from the UCI repository has essentially become a library of data visualization, sklearn algorithm, and preprocessing snippets that I draw from in order to get a fast, first-pass understanding of new datasets.
 
